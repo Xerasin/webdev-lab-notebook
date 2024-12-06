@@ -1,3 +1,67 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+section[class="main"] {
+  padding: 10px;
+}
+
+nav {
+  position: static;
+  background-color: black;
+  color: white;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-left: 0em;
+}
+
+a {
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+
+  text-decoration: none;
+  color: white;
+  padding: 1em 1.5em;
+  height: 100%;
+  width: 100%;
+}
+
+a:hover {
+  background-color: var(--violetred);
+}
+
+@media (min-width: 0) and (max-width: 700px) {
+  body {
+    background: var(--purple);
+    color: var(--white);
+  }
+
+  ul {
+    flex-direction: column;
+    padding-left: 0px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1024px) {
+  body {
+    background: var(--orange);
+    color: var(--black);
+  }
+}
+
 @media (min-width: 1024px) {
   body {
     background: var(--green);

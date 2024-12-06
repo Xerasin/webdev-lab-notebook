@@ -2,6 +2,19 @@ h1 {
   text-align: center;
 }
 
+div[class*="card"] > h1 {
+  text-align: left;
+  font-size: large;
+}
+div[class*="card"] > h2 {
+  text-align: left;
+  font-size: larger;
+}
+
+h2[class="modal-title"] {
+  text-align: left;
+  font-size: large;
+}
 form {
   width: 600px;
 }

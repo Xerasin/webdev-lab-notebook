@@ -2,3 +2,7 @@
   width: 600px;
   margin: 40px auto;
 }
+
+p[class="paragraph"]::first-letter {
+  font-size: 1.5cm;
+}
